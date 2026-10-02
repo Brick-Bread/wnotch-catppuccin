@@ -6,6 +6,7 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <Version>0.1.0</Version>
     <NotchCorePath Condition="'$(NotchCorePath)' == ''">$(LocalAppData)\Programs\Notch\Notch.Core.dll</NotchCorePath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);bin\**;obj\**;dist\**;artifacts\**;catppuccin-theme\**;glassmorphism-theme\**</DefaultItemExcludes>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Notch.Core">
