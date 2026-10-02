@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="controls.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <LinearGradientBrush x:Key="IslandBrush" StartPoint="0,0" EndPoint="0.8,1">
+        <GradientStop Color="#F030303E" Offset="0" />
+        <GradientStop Color="#F0292937" Offset="0.45" />
+        <GradientStop Color="#F023232F" Offset="1" />
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="TextBrush" Color="#C6D0F5" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#85C1DC" />
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="#2685C1DC" />
+    <SolidColorBrush x:Key="AccentPressedBrush" Color="#4085C1DC" />
+    <LinearGradientBrush x:Key="CardBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#2438394D" Offset="0" />
+        <GradientStop Color="#1530393E" Offset="1" />
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="ControlBrush" Color="#2438394D" />
+    <SolidColorBrush x:Key="HoverBrush" Color="#33414657" />
+    <SolidColorBrush x:Key="PressedBrush" Color="#4A51576D" />
+    <SolidColorBrush x:Key="TrackBrush" Color="#4051576D" />
+    <LinearGradientBrush x:Key="GlassEdgeBrush" StartPoint="0,0" EndPoint="0.4,1">
+        <GradientStop Color="#44C6D0F5" Offset="0" />
+        <GradientStop Color="#1C838BA7" Offset="1" />
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="GlassMutedBrush" Color="#A5ADCE" />
+
+    <SolidColorBrush x:Key="TerminalBackgroundBrush" Color="#303446" />
+    <SolidColorBrush x:Key="TerminalForegroundBrush" Color="#C6D0F5" />
+    <SolidColorBrush x:Key="TerminalCursorBrush" Color="#85C1DC" />
+    <SolidColorBrush x:Key="TerminalSelectionBrush" Color="#51576D" />
+    <SolidColorBrush x:Key="TerminalAnsi0Brush" Color="#414559" />
+    <SolidColorBrush x:Key="TerminalAnsi1Brush" Color="#E78284" />
+    <SolidColorBrush x:Key="TerminalAnsi2Brush" Color="#A6D189" />
+    <SolidColorBrush x:Key="TerminalAnsi3Brush" Color="#E5C890" />
+    <SolidColorBrush x:Key="TerminalAnsi4Brush" Color="#8CAAEE" />
+    <SolidColorBrush x:Key="TerminalAnsi5Brush" Color="#F4B8E4" />
+    <SolidColorBrush x:Key="TerminalAnsi6Brush" Color="#81C8BE" />
+    <SolidColorBrush x:Key="TerminalAnsi7Brush" Color="#B5BFE2" />
+    <SolidColorBrush x:Key="TerminalAnsi8Brush" Color="#626880" />
+    <SolidColorBrush x:Key="TerminalAnsi9Brush" Color="#EA999C" />
+    <SolidColorBrush x:Key="TerminalAnsi10Brush" Color="#BFE8A3" />
+    <SolidColorBrush x:Key="TerminalAnsi11Brush" Color="#EFDBA6" />
+    <SolidColorBrush x:Key="TerminalAnsi12Brush" Color="#A5C1FA" />
+    <SolidColorBrush x:Key="TerminalAnsi13Brush" Color="#F8CBEA" />
+    <SolidColorBrush x:Key="TerminalAnsi14Brush" Color="#99D8CE" />
+    <SolidColorBrush x:Key="TerminalAnsi15Brush" Color="#C6D0F5" />
+</ResourceDictionary>
