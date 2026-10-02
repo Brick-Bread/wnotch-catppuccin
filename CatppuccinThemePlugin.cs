@@ -41,15 +41,6 @@ public sealed class CatppuccinThemePlugin : INotchPlugin
             File = "themes/mocha.xaml",
             Base = PluginThemeBase.Dark,
         });
-
-        host.Themes.Set(new PluginTheme
-        {
-            Id = "minecraft",
-            Name = "Minecraft",
-            Description = "Blocky grass, dirt, stone and diamond colours with bundled MinecraftDefault font.",
-            File = "themes/minecraft.xaml",
-            Base = PluginThemeBase.Dark,
-        });
     }
 
     public void Stop() { }
