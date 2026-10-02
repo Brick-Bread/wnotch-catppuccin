@@ -1,6 +1,6 @@
 # Notch Catppuccin
 
-A theme plugin for [Brick-Bread/WNotch](https://github.com/Brick-Bread/WNotch), built against its supported **plugin API 6**. Version 0.2.1 includes the four Catppuccin flavors:
+A theme plugin for [Brick-Bread/WNotch](https://github.com/Brick-Bread/WNotch), built against its supported **plugin API 6**. Version 0.2.2 includes the four Catppuccin flavors:
 
 - **Catppuccin / Latte:** soft light palette with rosewater and mauve accents.
 - **Catppuccin / Frappe:** cool mid-dark palette with sapphire accents.
@@ -13,7 +13,7 @@ The themes cover the compact pill, expanded shell, cards, shared buttons, tab st
 
 In WNotch Settings, under **Plugins**, enter `Brick-Bread/wnotch-catppuccin` and press **Install**, then save. Select a **Catppuccin** variant under **Plugin theme** and save again. Requires WNotch with plugin API 6 or newer.
 
-Alternatively, download `notch-catppuccin-0.2.1.zip` from [Releases](https://github.com/Brick-Bread/wnotch-catppuccin/releases), extract it into `%AppData%\Notch\plugins\brick-bread.catppuccin`, then enable **Notch Catppuccin** in Settings.
+Alternatively, download `notch-catppuccin-0.2.2.zip` from [Releases](https://github.com/Brick-Bread/wnotch-catppuccin/releases), extract it into `%AppData%\Notch\plugins\brick-bread.catppuccin`, then enable **Notch Catppuccin** in Settings.
 
 ## Build
 
@@ -30,7 +30,7 @@ For a different installation or source build:
 .\build.ps1 -NotchCorePath 'C:\path\to\Notch.Core.dll'
 ```
 
-This creates `dist\brick-bread.catppuccin` and `dist\notch-catppuccin-0.2.1.zip`. The plugin does not ship `Notch.Core.dll`, use NuGet packages, poll, access the network or alter saved application settings. Its entry point only registers themes.
+This creates `dist\brick-bread.catppuccin` and `dist\notch-catppuccin-0.2.2.zip`. The plugin does not ship `Notch.Core.dll`, use NuGet packages, poll, access the network or alter saved application settings. Its entry point only registers themes.
 
 ## Try in Notch
 
@@ -61,7 +61,7 @@ The native WPF checker loads the shipped dictionaries, checks supported resource
 
 ## Releases
 
-GitHub Actions builds and validates the plugin on pushes to `main` and pull requests. Pushing a matching version tag, such as `v0.2.1`, creates a release with exactly one plugin ZIP, which WNotch's installer expects. The workflow pins the WNotch source used for its API reference; local builds use the installed host DLL by default.
+GitHub Actions builds and validates the plugin on pushes to `main` and pull requests. Pushing a matching version tag, such as `v0.2.2`, creates a release with exactly one plugin ZIP, which WNotch's installer expects. The workflow pins the WNotch source used for its API reference; local builds use the installed host DLL by default.
 
 ## License
 

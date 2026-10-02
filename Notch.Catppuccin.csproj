@@ -4,7 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <EnableDynamicLoading>true</EnableDynamicLoading>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <NotchCorePath Condition="'$(NotchCorePath)' == ''">$(LocalAppData)\Programs\Notch\Notch.Core.dll</NotchCorePath>
     <DefaultItemExcludes>$(DefaultItemExcludes);bin\**;obj\**;dist\**;artifacts\**;catppuccin-theme\**;glassmorphism-theme\**</DefaultItemExcludes>
   </PropertyGroup>
