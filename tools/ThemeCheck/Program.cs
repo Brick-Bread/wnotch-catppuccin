@@ -32,7 +32,7 @@ internal static class Program
             var collector = ((ThemeHost)(object)host).Collector;
             var plugin = new CatppuccinThemePlugin();
             plugin.Start(host);
-            Require(collector.Themes.Count == 4, "Expected all Catppuccin theme variants.");
+            Require(collector.Themes.Count == 5, "Expected all registered theme variants.");
             _app = new Application();
 
             foreach (PluginTheme theme in collector.Themes)

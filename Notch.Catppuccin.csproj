@@ -14,7 +14,7 @@
       <Private>false</Private>
     </Reference>
     <Compile Remove="tools\**\*.cs;.notch-reference\**\*.cs;.notch-core\**\*.cs" />
-    <None Update="plugin.json;themes\*.xaml" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Update="plugin.json;themes\*.xaml;fonts\*.ttf" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
   <Target Name="CheckNotchReference" BeforeTargets="ResolveReferences">
     <Error Condition="!Exists('$(NotchCorePath)')" Text="Notch.Core.dll was not found. Build with -p:NotchCorePath=C:\path\to\Notch.Core.dll from a WNotch build with plugin API 6 or newer." />
